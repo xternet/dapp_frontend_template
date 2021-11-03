@@ -11,11 +11,11 @@ export default function Content() {
   const dispatch = useDispatch();
 
   return (
-  	<Container>
-      {count}
-  		<br></br>
-  		<Button onClick={() => dispatch(decrement())}>-</Button>
-  		<Button onClick={() => dispatch(increment())}>+</Button>
-  	</Container>
+    <Container>
+        {count}
+        <br></br>
+        <Button onClick={() => dispatch(decrement())}>-</Button>
+        <Button onClick={() => dispatch(increment())}>+</Button>
+    </Container>
   );
 }
